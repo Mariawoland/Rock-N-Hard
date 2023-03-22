@@ -1,0 +1,86 @@
+body {
+    background: url("Img/Rectangle.png");
+    background-color: black;
+    color: #FAFAFA;
+    font-family: 'Roboto Condensed';
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.setting-1 {
+    background-image: url("Img/Mint.png");
+    height: 100%;
+    background-size: 100% 85%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.text-1 {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 34px;
+}
+
+.text-2 {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.text-3 {
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 90px;
+    width: 90%;
+}
+
+.text-4 {
+    font-family: 'Inter';
+    font-size: 28px;
+    width: 75%;
+}
+
+.text-5 {
+    font-weight: 800;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #232323;
+}
+
+.button-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #B0EADF;
+    border-radius: 49px;
+}
+
+@media (max-width: 850px) {
+
+    .text-3 {
+        font-size: 55px;
+        width: 100%;
+    }
+
+    .text-4 {
+        font-size: 23px;
+        width: 90%;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .text-3 {
+        font-size: 45px;
+    }
+
+    .text-4 {
+        font-size: 20px;
+        width: 100%;
+    }
+}
